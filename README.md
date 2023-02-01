@@ -13,4 +13,10 @@ Specifically, the company is interested in: • Which variables are significant 
 Determine the optimal lambda value for ridge and lasso regressions
 
 
+Conclusions
+In my opinion, Lasso Regression is better than Ridge Regression.
 
+When compared to Ridge Regression, Lasso Regression has slightly better R2 Score, RSS, and MSE values
+By using Lasso Regression, we can push model coefficients to zero. In other words, features with co-efficents of 0 can be removed from the model. This results in the selection of features
+We can also reduce the complexity of the model by removing features with zero coefficients.
+In terms of predictor features, OverallQual is among the top 10,LotArea, GarageCars,YearBuild,fireplaces,OverallCond,HouseStyle_2.5Fin,Neighborhood_Crawfor,YearRemodAdd and MSZoning_RH
